@@ -21,7 +21,7 @@ jobs:
       - name: Build and push
         uses: docker/build-push-action@v3
         with:
-          context: /src/backend/services/create-glibb/CreateGlibb.Api
-          file: /src/backend/services/create-glibb/CreateGlibb.Api/Dockerfile
+          context: src/backend/services/create-glibb/CreateGlibb.Api
+          file: src/backend/services/create-glibb/CreateGlibb.Api/Dockerfile
           push: true
           tags: ${{ secrets.DOCKER_HUB_USERNAME }}/create-glibb-api:latest
