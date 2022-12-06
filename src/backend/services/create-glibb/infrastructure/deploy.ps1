@@ -1,0 +1,1 @@
+kubectl apply -f ../CreateGlibb.Api/infrastructure/deployment-create-glibb-api.yaml
