@@ -3,15 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33015.44
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CreateGlibb.Api", "CreateGlibb.Api.csproj", "{8FE35EE9-8D61-4FBB-978A-0E6BAB018B1A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CreateGlibb.Api", "CreateGlibb.Api\CreateGlibb.Api.csproj", "{8FE35EE9-8D61-4FBB-978A-0E6BAB018B1A}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CreateGlibb.Api.Tests", "..\..\..\..\..\tests\backend\services\create-glibb\CreateGlibb.Api.Tests\CreateGlibb.Api.Tests.csproj", "{17159C0F-B749-4107-BE9E-E9FE2E44C66C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CreateGlibb.Api.Tests", "..\..\..\..\tests\backend\services\create-glibb\CreateGlibb.Api.Tests\CreateGlibb.Api.Tests.csproj", "{17159C0F-B749-4107-BE9E-E9FE2E44C66C}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CreateGlibb.MessageService", "..\CreateGlibb.MessageService\CreateGlibb.MessageService.csproj", "{FAF3034F-3F17-483D-8916-8BA88AF10C38}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CreateGlibb.MessageService", "CreateGlibb.MessageService\CreateGlibb.MessageService.csproj", "{FAF3034F-3F17-483D-8916-8BA88AF10C38}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Library.Redis", "..\Library.Redis\Library.Redis.csproj", "{69C95D4F-91D7-4115-B9E9-3DCE7867E4DD}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Library.Redis", "Library.Redis\Library.Redis.csproj", "{69C95D4F-91D7-4115-B9E9-3DCE7867E4DD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Contracts", "..\Contracts\Contracts.csproj", "{412ECD26-725A-4228-B928-97326EC7F132}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Contracts", "Contracts\Contracts.csproj", "{412ECD26-725A-4228-B928-97326EC7F132}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

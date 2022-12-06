@@ -2,4 +2,4 @@
 $version = "0.2";
 
 
-docker build -f ../CreateGlibb.Api/Dockerfile -t create-glibb-api:$version ../CreateGlibb.Api/
+docker build --no-cache -f ../CreateGlibb.Api/Dockerfile -t create-glibb-api:$version ../
